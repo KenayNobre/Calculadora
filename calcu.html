@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CalcuStyle.css">
+    <link rel="stylesheet" href="tabu.css">
+</head>
+
+<body>
+    <header>CALCULATOR 3000</header>
+
+    <div class="container">
+        <section id="tabu"><!-- TABUADA-->
+            Número: <input type="number" name="num" id="num">
+            <input type="button" value="Mostrar Tabuada" onclick="tabuada()">
+            <p id="tabures">Digite um numero acima</p>
+        </section>
+
+        <section id="calcu"> <!--CALCULADORA-->
+            <div id="res"></div>
+            <div id="7" class="numero" onclick="sete7()" onmouseenter="entrou7()" onmouseout="saiu7()"> 7 </div>
+            <div id="8" class="numero" onclick="oito8()" onmouseenter="entrou8()" onmouseout="saiu8()"> 8 </div>
+            <div id="9" class="numero" onclick="nove9()" onmouseenter="entrou9()" onmouseout="saiu9()"> 9 </div>
+            <div id="=" class="numero" onclick="igualdade()" onmouseenter="entrouigual()" onmouseout="saiuigual()"> =
+            </div>
+            <div id="4" class="numero" onclick="quatro4()" onmouseenter="entrou4()" onmouseout="saiu4()"> 4 </div>
+            <div id="5" class="numero" onclick="cinco5()" onmouseenter="entrou5()" onmouseout="saiu5()"> 5 </div>
+            <div id="6" class="numero" onclick="seis6()" onmouseenter="entrou6()" onmouseout="saiu6()"> 6 </div>
+            <div id="+" class="numero" onclick="maiss()" onmouseenter="entroumais()" onmouseout="saiumais()"> + </div>
+            <div id="1" class="numero" onclick="um1()" onmouseenter="entrou1()" onmouseout="saiu1()"> 1 </div>
+            <div id="2" class="numero" onclick="dois2()" onmouseenter="entrou2()" onmouseout="saiu2()"> 2 </div>
+            <div id="3" class="numero" onclick="tres3()" onmouseenter="entrou3()" onmouseout="saiu3()"> 3 </div>
+            <div id="-" class="numero" onclick="menoss()" onmouseenter="entroumenos()" onmouseout="saiumenos()"> -
+            </div>
+            <div id="C" class="numero" onclick="limpar()" onmouseenter="entroulimpar()" onmouseout="saiulimpar()">C
+            </div>
+            <div id="zero" class="numero" onclick="zer()" onmouseenter="entrou0()" onmouseout="saiu0()"> 0 </div>
+            <div id="*" class="numero" onclick="multiplicacao()" onmouseenter="entroumulti()" onmouseout="saiumulti()">x
+            </div>
+            <div id="/" class="numero" onclick="divi()" onmouseenter="entroudivisao()" onmouseout="saiudivisao()">/
+            </div>
+
+        </section>
+        
+        <section id="tabu2"><!-- TABUADA--></section>
+    </div>
+
+
+    <script src="tabuscript.js"></script>
+    <script src="CalcuScript.js"></script>
+</body>
+
+</html>

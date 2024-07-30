@@ -1,0 +1,99 @@
+body{
+    background-color:rgb(189, 189, 189);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header{
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255, 155, 6, 0.767);
+    min-height: 50px;
+    line-height: 50px;
+    font:normal 30px Arial black;
+    box-shadow: 5px 5px 20px;
+    margin: 0 auto;
+}
+
+section#calcu{
+    background-color:rgb(32, 32, 32);
+    padding:35px;
+    border-radius: 55px;
+    width:415px; 
+    max-height: 350px;
+}
+section#tabu{
+    background-color:rgb(32, 32, 32);
+    padding:20px;
+    border-radius: 55px;
+    width:415px;
+    font:normal 20px Arial black;
+    color: orange;
+}
+
+div#res{
+border-radius:55px;
+font-size: 25px;
+width: 400px;
+margin:auto;
+text-align: right;
+background-color: white;
+min-height: 30px;
+display: flex;
+align-items: center;
+padding: 2px;
+justify-content: flex-end;
+padding-right: 10px;
+}
+
+div#numero{
+    background-color: orange;
+    padding:10px;
+    margin-top: 20px;
+    border-radius:55px;
+    text-align: center;
+    display: inline-block;
+    margin-right:25px;
+    margin-left:25px;
+    font:normal 20px Arial black;
+}
+.numero{
+    background-color: orange;
+    padding:10px;
+    margin-top: 20px;
+    border-radius:55px;
+    width:30px;
+    text-align: center;
+    display: inline-block;
+    margin-right:25px;
+    margin-left:25px;
+    font:normal 20px Arial black;
+}
+p{
+    background-color: orange;
+    color:black;
+    padding: 5px;
+    border-radius:55px;
+    
+
+    
+}
+
+.container{
+    background-color: transparent;
+    margin-left: 0px;
+    display: flex;
+    width: 100vw;
+    margin-top: 8%;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+#tabu2{
+    background-color:transparent;
+    padding:20px;
+    border-radius: 55px;
+    width:415px;
+    font:normal 20px Arial black;
+}
